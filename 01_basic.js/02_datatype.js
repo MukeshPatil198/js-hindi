@@ -16,4 +16,7 @@ console.log(typeof F);
 console.log(typeof G);
 //Datatype in JS is => Number ,String ,Boolean,Null,Undefined,Symbol,bigint  Total =7 primitive 
 // and non-primitive is object
+let p = Symbol("I am Mukesh Gurjar")
+let q = Symbol("I am Mukesh Gurjar")
+console.log(p===q); //Not same beacause symbol store the unique value   
  
