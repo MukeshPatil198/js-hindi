@@ -45,7 +45,31 @@ for (const [key ,value]of map) {
 for (const [key,value] in map) {
     //console.log(key,value);  // does not support it
 }
-map.forEach( (key) => {
+map.forEach( (key) => { //A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action
     console.log(key);
     
 });
+
+const addobj =[
+    {
+        name : "om",
+        age : 12
+    },
+    {
+        name : "ram",
+        age : 12
+    },
+    {
+        name : "jay",
+        age : 13
+    },
+    {
+        name : "shri",
+        age : 14
+    },
+]
+addobj.forEach(  (item) => {
+    console.log(item.name);
+});
+
+// foreach loops does not retrun value
