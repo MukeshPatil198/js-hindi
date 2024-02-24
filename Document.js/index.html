@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- <style>
+           .bg_color{
+
+               background-color: black;
+               color : white
+           }
+         
+    </style> -->
+</head>
+<body>
+
+
+</body>      
+<script>
+       const div = document.createElement('div')
+       div.className = "heading"
+       div .id = "title"
+       div.setAttribute('title',"dom creation")
+       div.style.backgroundColor = "green"
+       div.style.padding = "20px";
+       //div.innerText = "Chai our Code"
+     const addtext = document.createTextNode("chai our code")
+     div.appendChild(addtext)
+     document.body.appendChild(div)
+
+       
+</script>
+         
+
+</html>
